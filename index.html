@@ -4,28 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
   <style>
+  [class*="col-"] {
+  width: 100%;
+  }
   body {
     background-color: rgb(0,0,0);
     color: rgb(255,255,255);
     font-family:sans-serif;
     padding: 0;
-   
-  section {
-    float: left;
-    width: 40%;
-    height: 100%;
-  }
-  article {
-    float: left;
-    width: 60%;
-    height: 100%;
-  }
   </style>
+  
   <script src="processing.js"></script>
-  <title>Document</title>
+  <title>PRF192x-ASM1</title>
 </head>
 <body>
+
 <header>
   <h4>CAR RACING</h4>
   <h5>Choose one of three cars.<br>
@@ -33,9 +28,11 @@
       You can replay the game as much times as you want.
   </h5>
 </header>
+
 <section>
-    <canvas data-processing-sources="choosecar.pde"></canvas>
+  <canvas data-processing-sources="choosecar.pde"></canvas>
 </section>
+
 <article>
   <canvas data-processing-sources="car.pde"></canvas>
 </article>
