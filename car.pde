@@ -126,15 +126,17 @@ var drawBG = function() {
     ellipse(screenx/2, 10, 100, 100);
 
     //trees
-    drawTree(-30);
-    drawTree(0);
-    drawTree(50);
-    drawTree(230);
-    drawTree(280);
-    drawTree(300);
-    drawTree(600);
-    drawTree(710);
-    drawTree(730);
+    drawTree(screenx/10 - 60);
+    drawTree(screenx/10 - 40);
+    drawTree(screenx/10);
+    drawTree(screenx/5);
+    drawTree(screenx/3);
+    drawTree(screenx/3 + 40);
+    drawTree(screenx/3 + 60);
+    drawTree(screenx/2);
+    drawTree(screenx/2 + 70);
+    drawTree(screenx - 80);
+    drawTree(screenx - 60);
 
     //Start-line
     stroke(255, 255, 255);
