@@ -15,9 +15,9 @@ var drawCar = function(x, y, w, r, g, b, n)  {
 };
 
 //draw car
-size(300,80);
+size(300,70);
 background(0,0,0);
 noStroke();
-drawCar(10 , 50, 80, 255, 0  , 115, 1);//pink car
-drawCar(110, 50, 80, 255, 255, 115, 2);//yellow car
-drawCar(210, 50, 80, 0,   255, 255, 3);//green car
+drawCar(10 , 45, 80, 255, 0  , 115, 1);//pink car
+drawCar(110, 45, 80, 255, 255, 115, 2);//yellow car
+drawCar(210, 45, 80, 0,   255, 255, 3);//green car
