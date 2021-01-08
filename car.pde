@@ -1,7 +1,7 @@
 //variables declaration
 
 //width & height of the screen. all objects are scaled to the width and height of the screen
-var screenx = 800, screeny = 400;
+var screenx = 1300, screeny = 400;
 
 // start position of 3 car
 var x1 = 10,  x2 = x1 + 10, x3 = x1 + 20;
